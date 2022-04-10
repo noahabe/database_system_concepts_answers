@@ -8,3 +8,4 @@
 # Solutions to **Database System Concepts** _Seventh Edition_
  
 </div>
+The solutions to the Practice Exercises are given at the book's [website](https://www.db-book.com/Practice-Exercises/index-solu.html). But I include them here for completeness sake. 
