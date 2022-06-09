@@ -14,6 +14,6 @@ The solutions to the Practice Exercises are given at the book's [website](https:
 
 I try to answer the Exercises.
 
-If you find any mistakes please, create an issue to tell me.
+If you find any mistakes, please create an issue to tell me.
 
 Pull requests are also appreciated. 
