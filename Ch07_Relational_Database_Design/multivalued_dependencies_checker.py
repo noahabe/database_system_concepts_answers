@@ -87,12 +87,12 @@ def multivalued_dependency_checker(r: List[Tuple], R: Set[int], alpha: Set[int],
 if __name__ == '__main__':
     print(multivalued_dependency_checker(
         [
-            (1, 2, 3, 7),
-            (1, 5, 6, 4),
-            (1, 5, 3, 7),
-            (1, 2, 6, 4),
+            (1, 3, 7, 2),
+            (1, 6, 4, 5),
+            (1, 3, 7, 5),
+            (1, 6, 4, 2),
         ], # the relation
         {0, 1, 2, 3}, # the schema
         {0,}, # alpha
-        {2, 3}, # beta
+        {1,2},# beta
     ))
