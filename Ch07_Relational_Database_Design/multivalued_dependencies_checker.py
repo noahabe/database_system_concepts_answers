@@ -1,4 +1,4 @@
-from typing import Optional, List, Set, Tuple
+from typing import List, Set, Tuple
 
 def tuple_over_set_equality_checker(t1: Tuple, t2: Tuple, t3: Tuple, t4: Tuple, s: Set[int]) -> bool:
     for i in s:
