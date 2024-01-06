@@ -1,6 +1,6 @@
 <!-- ![Cover page of the book database system concepts 7th edition](https://www.db-book.com/images/db7-cover.jpg) -->
 <p align="center">
-  <img src="https://www.db-book.com/images/db7-cover.jpg" height="150" alt="Cover page of the book database system concepts 7th edition">
+  <img src="./db7-cover.jpg" height="150" alt="Cover page of the book database system concepts 7th edition">
 </p>
 
 <div align="center">
@@ -16,7 +16,11 @@ I try to answer the Exercises.
 
 ## Usage
 
-1. Clone the whole repo or a single file as you wish.
+1. Clone the repo: 
+```
+git clone https://github.com/noahabe/database_system_concepts_answers
+```
+
 2. Open the markdown files (`x.md`) in [VS Code (Visual Studio Code)](https://code.visualstudio.com/). 
 3. Then press `Ctrl + Shift + V` to see the rendered file. 
 
