@@ -16,6 +16,12 @@ I try to answer the Exercises.
 
 ## Usage
 
+### Option 1
+
+Just head on over to [https://dsc-answers.web.app](https://dsc-answers.web.app)
+
+### Option 2 
+
 1. Clone the repo: 
 ```
 git clone https://github.com/noahabe/database_system_concepts_answers
