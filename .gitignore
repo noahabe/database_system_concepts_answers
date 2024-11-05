@@ -5,3 +5,6 @@ _site/
 
 #ignore some private files
 PRIVATE_README.md
+
+.firebaserc
+firebase.json
