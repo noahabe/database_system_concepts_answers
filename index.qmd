@@ -1,0 +1,11 @@
+---
+title: "Database System Concepts Answers"
+---
+
+Solutions to the book "Database System Concepts"
+
+![DSC](db7-cover.jpg)
+
+[Here](https://www.db-book.com/) 
+is a link to the book.
+

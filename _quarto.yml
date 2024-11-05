@@ -1,0 +1,31 @@
+project:
+  type: website
+  render: 
+    - "*.md"
+    - "*.qmd"
+    - "!PRIVATE_README.md"
+
+website:
+  title: "Database System Concepts Answers"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+    tools:
+      - icon: github
+        href: https://github.com/noahabe/database_system_concepts_answers
+  sidebar: 
+    style: "floating"
+    collapse-level: 1
+    search: false 
+    contents: auto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
