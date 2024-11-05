@@ -31,7 +31,7 @@ def fix_file(filename: str):
 
 def get_file_names_that_begin_with_ch():
     all_filenames = os.listdir() 
-    return filter(lambda f : f.startswith('Ch'),)
+    return filter(lambda f : f.startswith('Ch'),all_filenames)
 
 if __name__ == '__main__': 
     for ch_dir in get_file_names_that_begin_with_ch():
