@@ -8,3 +8,4 @@ PRIVATE_README.md
 
 .firebaserc
 firebase.json
+.firebase/
