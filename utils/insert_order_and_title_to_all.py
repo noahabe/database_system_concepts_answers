@@ -29,10 +29,19 @@ def fix_file(filename: str):
     
     print(f"[+] successfully updated {filename}")
 
+def get_file_names_that_begin_with_ch():
+    all_filenames = os.listdir() 
+    return filter(lambda f : f.startswith('Ch'),)
 
 if __name__ == '__main__': 
-    all_md_filenames = os.listdir()
-    for single_file in all_md_filenames:
-        if not single_file.endswith('.md'):
-            continue
-        fix_file(single_file)
+    for ch_dir in get_file_names_that_begin_with_ch():
+        os.chdir(ch_dir)
+        
+        all_md_filenames = os.listdir()
+
+        for single_file in all_md_filenames:
+            if not single_file.endswith('.md'):
+                continue
+            fix_file(single_file)
+
+        os.chdir('..')
